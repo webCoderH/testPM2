@@ -1,0 +1,28 @@
+{
+    "apps": [
+      {
+        "name": "nodetest",
+        "script": "app.js",
+        "env": {
+          "COMMON_VARIABLE": "true"
+        },
+        "env_production": {
+          "NODE_ENV": "production"
+        }
+      }
+    ],
+    "deploy": {
+      "production": {
+        "user": "cg",
+        "host": ["47.94.84.246"],
+        "port": "22",
+        "ref": "origin/master",
+        "repo": "git@github.com:webCoderH/testPM2.git",
+        "path": "/www/website/testPM2",
+        "ssh_options": "StrictHostKeyChecking=no",
+        "env": {
+          "NODE_ENV": "production"
+        }
+      }
+    }
+  }
