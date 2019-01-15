@@ -18,7 +18,7 @@
         "port": "22",
         "ref": "origin/master",
         "repo": "git@github.com:webCoderH/testPM2.git",
-        "path": "/www/website/testPM2",
+        "path": "/usr/home/www/website/testPM2",
         "ssh_options": "StrictHostKeyChecking=no",
         "env": {
           "NODE_ENV": "production"
