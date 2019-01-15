@@ -13,7 +13,7 @@
     ],
     "deploy": {
       "production": {
-        "user": "cg",
+        "user": "root",
         "host": ["47.94.84.246"],
         "port": "22",
         "ref": "origin/master",
